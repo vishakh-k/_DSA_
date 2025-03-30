@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class day1 {
      public int secondLargest(int[] arr){
              int max1=Integer.MIN_VALUE;
@@ -12,7 +11,7 @@ public class day1 {
                      max2=arr[i];
                  }        
              }
-             return (max2==Integer.MIN_VALUE)? -1 : max2;
+             return (max2==Integer.MIN_VALUE)?-1: max2;
           }
           public static void main(String[] args) {
              Scanner scanner =new Scanner(System.in);
