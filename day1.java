@@ -1,6 +1,10 @@
+// Find the second largest element of an array
+
 import java.util.Scanner;
 public class day1 {
      public int secondLargest(int[] arr){
+
+            // create two variables to store the max value and secmax value
              int max1=Integer.MIN_VALUE;
              int max2=Integer.MIN_VALUE;
              for(int i=0;i<arr.length;i++){
@@ -11,7 +15,7 @@ public class day1 {
                      max2=arr[i];
                  }        
              }
-             return (max2==Integer.MIN_VALUE)?-1: max2;
+             return (max2==Integer.MIN_VALUE)? -1 : max2;
           }
           public static void main(String[] args) {
              Scanner scanner =new Scanner(System.in);
