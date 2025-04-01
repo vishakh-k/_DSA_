@@ -4,11 +4,12 @@ import java.util.Scanner;
 
 public class day2 {
    public void movesZero(int [] arr){
-        int j=0;
+        int j=0; //for storeing after itering over the array
         int n=arr.length;
-        for(int i=0;i<n;i++){
+        for(int i=0;i<n;i++){ //itering each element of an array
             if(arr[i]!=0){
                 if(i!=j){
+                    //swapping each element of an array if 0 occurs
                     int temp=arr[i];
                     arr[i]=arr[j];
                     arr[j]=temp;
