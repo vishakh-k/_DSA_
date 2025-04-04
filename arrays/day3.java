@@ -1,3 +1,6 @@
+package arrays;
+// Print the Reversed array
+
 import java.util.Scanner;
 
 public class day3 {

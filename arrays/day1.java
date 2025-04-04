@@ -1,3 +1,4 @@
+package arrays;
 // Find the second largest element of an array
 
 import java.util.Scanner;

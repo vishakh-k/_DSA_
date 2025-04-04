@@ -1,3 +1,4 @@
+package arrays;
 // Add all the zeros to end of the array 
 
 import java.util.Scanner;
